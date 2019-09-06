@@ -410,14 +410,12 @@ a{
 .new_goods{
 	width: 70%;
 	height: 410px;
-	border: 1px solid red;
 	margin: 0 auto;
 }
 /*精选活动*/
 .activity{
 	width: 70%;
-	height: 490px;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	margin: 0 auto;
 }
 .activity .banner{
@@ -428,29 +426,174 @@ a{
 	width: 100%;
 	height: 350px;
 }
+.activity .cartWraper{
+	padding-top: 20px;
+}
+.activity .cartWraper .pro_text{
+	color: #666;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 10px;
+}
 /*优选好物*/
 .qualify_goods{
 	width: 70%;
 	height: 490px;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	margin: 0 auto;
 }
 /*底部*/
+.dropload-down{
+	text-align: center;
+}
+.h2_center{
+	width: 320px;
+    margin: 20px auto 20px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+}
+.h2_center h2{
+	color: #cacace;
+    font-size: 15px;
+    font-weight: normal;
+    background-color: #f3f3f3;
+    width: 80px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -40px;
+    z-index: 5;
+}
+.center_line{
+	position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #e5e5e5;
+    top: 15px;
+    z-index: 4;
+    left: 0;
+}
 .footer{
-	width: 70%;
+	width: 100%;
 	height: 707px;
 	margin: 0 auto;
-	border: 1px solid cyan;
+	background: white;
 }
 .footer .footer_top{
-	height: 186px;
-	background: lawngreen;
+	height: 110px;
+	padding-top: 30px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.footer .footer_top .item{
+	text-align: center;
+}
+.footer .footer_top .item .text{
+	color: #333;
+    font-size: 17px;
+    margin-top: -5px;
+    font-weight: bold;
+}
+.footer .footer_top .item .subText{
+	color: #999;
+    font-size: 15px;
+}
+.footer .footer_top .tip{
+	float: left;
+    width: 181px;
+    text-align: center;
 }
 .footer .footer_help{
-	height: 194px;
-	background: pink;
+	width: 70%;
+	border-top: 1px solid darkgray;
+	margin: 0 auto;
+	height: 250px;
 }
+.footer .footer_help .footer_l{
+	float: left;
+    width: 900px;
+    min-height: 152px;
+    margin-top: 50px;
+}
+.footer .footer_help .footer_l dl{
+	float: left;
+    padding: 0 34px 0 36px;
+}
+.footer .footer_help .footer_l dl dd{
+	color: #666;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+}
+
+.footer .footer_help .footer_l dl h5{
+	color: #333;
+    font-size: 17px;
+    font-weight: normal;
+    height: 31px;  
+}
+.footer .footer_help .footer_r ul {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.footer .footer_help .footer_r ul li{
+	float: left;
+    width: 100px;
+    margin-right: 20px;
+    text-align: center;
+    list-style: none;
+}
+.footer .footer_help .footer_r ul li h2{
+	color: #333333;
+    font-size: 14px;
+    font-weight: 600;
+    height: 31px;
+}
+.footer .footer_help .footer_r ul li p{
+	font-size: 14px;
+    color: #666666;
+}
+
 .footer .footer_bottom{
 	height: 282px;
-	background: red;
+	/*border-top: 3px solid red;*/
+	background-color: #262626;
 }
+.footer .footer_bottom .footer_nav{
+	border-top: 3px solid #F31425;
+    overflow: hidden;
+    margin-top: 45px;
+    text-align: center;
+}
+.footer .footer_bottom .footer_nav ul{
+	margin-top: 22px;
+}
+.footer .footer_bottom .footer_nav ul li{
+	display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    padding-right: 12px;
+}
+.footer .footer_bottom .footer_nav ul li a{
+	font-size: 12px;
+    color: #fff;
+}
+.footer .footer_bottom .footer_nav ul li span{
+	padding-left: 14px;
+    background: none;
+    border-right: 1px solid #fff;
+}
+.footer .footer_bottom p{
+	padding-top: 10px;
+    text-align: center;
+    color: #C8C8C8;
+    line-height: 21px;
+    font-size: 12px;
+}
+    
+    
+
